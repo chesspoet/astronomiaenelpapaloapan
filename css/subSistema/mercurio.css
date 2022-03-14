@@ -1,0 +1,29 @@
+#planetaIzqueirdo{
+    background-image: url('../../img/Secciones/LaTierra/mercurio\ planeta\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 950px;
+    transform: rotateY(180deg);
+    float: left;
+}
+#caracteristicasPlaneta{
+    width: 70%;
+    height: 950px;
+    float: left;
+    margin-bottom: 25%;
+
+}
+#imgPequenia{
+    
+    background-size: 100% 100%;
+    width: 20%;
+    height: 14.2%;
+    float: left;
+}
+
+#textocaja{
+    width: 80%;
+    height: 16.6%;
+    float: left;
+}

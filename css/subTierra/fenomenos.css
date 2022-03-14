@@ -1,0 +1,100 @@
+#fenomenosAtmosfericos{
+    position: relative;
+    width: 60%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 130% 180%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#containerfenome:hover,#nubes:hover,#huracanes:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+
+}
+#txtFenomenos{
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    height: 5%;
+    border-radius: 30px;
+    margin-left: 8%;
+}
+#containerfenome{
+    width: 85%;
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../img/Anexos/5162494.jpg');
+    float: left;
+    background-color:  rgb(205, 210, 214);
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 30px;
+}
+#sabiasfenomenos{
+    width: 98%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+#txtSabias{
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    height: 20%;
+    border-radius: 30px;
+}
+#nubes{
+    width: 49%;
+    height: 35%;
+    background-color: rgb(205, 210, 214);
+    background-size: 100% 100%;
+    background-image: url('../../img/Secciones/LaTierra/nubesjp.jpg');
+    float: left;
+    margin-top: 10%;
+    margin-left: 6%;
+    border-radius: 30px;
+}
+
+#txtNubes{
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    height: 5%;
+    border-radius: 30px;
+}
+#huracanes{
+    position: absolute;
+    width: 35%;
+    height: 45%;
+    float: left;
+    background-size: 100% 100%;
+    background-image: url('../../img/Secciones/LaTierra/tornadojp.jpg');
+    margin-top:90%;
+    margin-left: 75%;
+    margin-bottom: 1%;
+    bottom: 0.5%;
+    border-radius: 30px;
+}
+
+#txtHuracanes{
+    width: 100%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    height: 5%;
+    border-radius: 30px;
+}

@@ -1,0 +1,192 @@
+#fichaPersonal{
+    position: relative;
+    width: 35%;
+    height: 200px;
+    background-color: beige;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#texto{
+    position: relative;
+    width: 96%; text-align: justify;
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+#avatarFra{
+    position:absolute;
+    background-image: url('../img/Avatares/FRANCISCO.svg');
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarGab{
+    position:absolute;
+    background-image: url('../img/Avatares/GABY.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarRey{
+    position:absolute;
+    background-image: url('../img/Avatares/REY.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarIvan{
+    position:absolute;
+    background-image: url('../img/Avatares/IVAN.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarPapa{
+    position:absolute;
+    background-image: url('../img/Avatares/PAPAQUI.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarLaur{
+    position:absolute;
+    background-image: url('../img/Avatares/LAUREN.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+#avatarArie{
+    position:absolute;
+    background-image: url('../img/Avatares/ARIEL.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarDom{
+    position:absolute;
+    background-image: url('../img/Avatares/DOMINGO.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarIra{
+    position:absolute;
+    background-image: url('../img/Avatares/IRAIS.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarZai{
+    position:absolute;
+    background-image: url('../img/Avatares/ZAINOS.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#avatarAsh{
+    position:absolute;
+    background-image: url('../img/Avatares/AVATAR\ ASHLEY.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+#avatarOsw{
+    position:absolute;
+    background-image: url('../img/Avatares/OSWALDO.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+#avatarDavi{
+    position:absolute;
+    background-image: url('../img/Avatares/DAVID.svg');
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+#datos{
+    
+    width: 54%;
+    height: 85%;
+    border-radius: 30px;
+    margin-left: 44%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}

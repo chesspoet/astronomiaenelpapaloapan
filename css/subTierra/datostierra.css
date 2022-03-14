@@ -1,0 +1,22 @@
+#tierraCentro{
+    width: 40%;
+    height: 400px;
+    background-image: url('../../img/Secciones/LaTierra/tierraSOLA.svg');
+    background-repeat: no-repeat;
+    float:left;
+    background-size: 100% 100%;
+}
+#izquierda{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    float:left;
+    margin: auto;
+}
+#derecha{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    float:left;
+    margin: auto;
+}

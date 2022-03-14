@@ -1,0 +1,28 @@
+#capaCentro{
+    width: 50%;
+    height: 400px;
+    background-image: url('../../img/Secciones/LaTierra/CAPAS_DE_LA_TIERRA.svg');
+    background-repeat: no-repeat;
+    float:left;
+    border-radius: 40px;
+    margin-left: 3%;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#izquierda{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    float:left;
+    margin: auto;
+}
+#derecha{
+    text-align: justify;
+    position: relative;
+    margin-left: 1%;
+    width: 45%;
+    height: 400px;
+    margin-top: 5%;
+    float:left;
+    margin: auto;
+}

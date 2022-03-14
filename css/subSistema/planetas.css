@@ -1,0 +1,132 @@
+#sabiasSis{
+    position: relative;
+    width: 24%;
+    height: 250px;
+    background-color: rgb(116, 109, 109);
+    background-image: url('../../img/Anexos/5162494.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#mercurio{
+    position: relative;
+    width: 32%;
+    height: 305.5px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Mercurio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#venus{
+    position: relative;
+    width: 31.5%;
+    height: 304.5px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Venus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#marte{
+    position: relative;
+    width: 47.25%;
+    height: 456.75px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Marte.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#jupiter{
+    position: relative;
+    width: 47.25%;
+    height: 458.25px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Jupiter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#saturno{
+    position: relative;
+    width: 47.5%;
+    height: 305.5px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Saturno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#urano{
+    position: relative;
+    width: 47.5%;
+    height: 305.5px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Urano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#neptuno{
+    position: relative;
+    width: 48.75%;
+    height: 455.25px;
+    background-color: white;
+    background-image: url('../../img/Secciones/SistemaSolar/Neptuno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1%;
+    margin-left: 27%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#txtmercurio,#txtvenus,#txtmarte,#txtjupiter,#txtsaturno,#txturano,#txtneptuno{
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    bottom: 50%;
+    height: 5%;
+    border-radius: 30px;
+}
+#txtsabiasSis{
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-size:xx-large;
+    font-weight: bold;
+    bottom: 50%;
+    height: 5%;
+    border-radius: 30px;
+}

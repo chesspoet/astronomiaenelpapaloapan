@@ -1,0 +1,31 @@
+#planetaIzqueirdo{
+
+    background-image: url('../../img/Secciones/LaTierra/urano\ planeta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 45%;
+    width: 30%;
+    height: 950px;
+    float: left;
+    transform: rotateY(180deg);
+
+}
+#caracteristicasPlaneta{
+    width: 70%;
+    height: 950px;
+    float: left;
+
+}
+#imgPequenia{
+    
+    background-size: 100% 100%;
+    width: 20%;
+    height: 16.6%;
+    float: left;
+}
+
+#textocaja{
+    width: 80%;
+    height:  16.6%;
+    float: left;
+}

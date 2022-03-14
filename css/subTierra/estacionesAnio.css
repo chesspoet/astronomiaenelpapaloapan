@@ -1,0 +1,125 @@
+#estaciones{
+    width: 80%;
+    height: 415px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#tema5{
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-weight: bold;
+    height: 5%;
+    border-radius: 30px;
+}
+#sabia{
+    position: relative;
+    width: 55%;
+    height: 67%;
+    float: left;
+
+    margin-top: 6%;
+    margin-left: 6%;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url('../../img/Anexos/5193409.jpg');
+    background-repeat: no-repeat;
+}
+#sabia:hover,#primavera:hover,#verano:hover,#otonio:hover,#invierno:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+#sabiasque{
+    width: 98%;
+    height: 70%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+#txtSabiasque{
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-weight: bold;
+    height: 5%;
+    border-radius: 30px;
+    bottom: 8%;
+}
+
+#primavera{
+    background-size: cover;
+    background-image: url('../../img/Secciones/LaTierra/primaverajp.jpg');
+    background-color:  rgb(4, 81, 145);
+    background-repeat: no-repeat;
+    width: 27%;
+    height: 67%;
+    float: left;
+    margin-top: 6%;
+    margin-left: 7%;
+    border-radius: 30px;
+}
+
+#estaciondown{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 72%;
+    float: left;
+    margin-top: 6%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+#verano,#otonio,#invierno{
+    width: 27%;
+    height: 92%;
+    float: left;
+    margin-top: 1%;
+    border-radius: 30px;
+}
+#verano{
+    background-size: cover;
+    background-image: url('../../img/Secciones/LaTierra/veranojp.jpg');
+    background-color: rgb(241, 129, 163);
+}
+#otonio{
+    background-size: cover;
+    background-image: url('../../img/Secciones/LaTierra/otoniojp.jpg');
+    background-color: rgb(182, 107, 9);
+    margin-left: 8%
+}
+#invierno{
+    background-size: cover;
+    background-image: url('../../img/Secciones/LaTierra/inviernojp.jpg');
+    background-color: rgb(87, 245, 224);
+    margin-left: 8%
+}
+#seccionessub{
+    overflow: hidden;
+    width: 70%;
+    height: 750px;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+#seccionessub::after{
+    content: ""; 
+    background-color: white;
+    opacity: 0.5; 
+    top: 2%; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    z-index: -1; 
+}
+#seccionessub{
+    text-align: center;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Lotería Del Espacio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script type="text/javascript" src="js/loteria.js">
+        </script>        
+        <link href="css/loteria.css" rel="stylesheet" type="text/css" />
+        <link href="css/menus.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="img/icon.ico">
+
+    </head>
+    <body> 
+        <div class="navbar">      
+            <a href="#home">index</a>                        
+            <div class="dropdown">
+                <button class="dropbtn">Reproducción 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a id="mnuAutomatico" href="javascript:setTipoReproduccionAutomatica()">Automático</a>
+                    <a id="mnuManual" href="javascript:setTipoReproduccionManual()">Manual</a>                    
+                </div>
+            </div> 
+            <div class="dropdown" >
+                <button class="dropbtn">Tipo de Juego 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a id="mnuFilas" href="javascript:void(0)">Filas</a>
+                    <a id="mnuLlena" href="javascript:void(0)">Llena</a>
+                    <a id="mnuCentro" href="javascript:void(0)">Centro</a>
+                    <a id="mnuEsquinas" href="javascript:void(0)">Esquina</a>
+                </div>
+            </div>              
+            <div class="dropdown">
+                <button class="dropbtn">                    
+                    Descargas 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="docs/cartones.pdf" target="_blank">Cartones</a>
+                    <a href="docs/cartas.pdf" target="_blank">Cartas</a>                    
+                    <a href="docs/manual.pdf">Manual</a>                        
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="javascript:cambiarFondo()">Fondo</a>               
+            </div>  
+        </div>    
+        <div class="dropdown">
+            <button class="dropbtn">                    
+                <div id="sfcppylz524n9hyl38jsb9y7n96b1h2mmeg" style="margin-top:2%; margin-left:0%;">Contador de juego loteria</div><script type="text/javascript" src="https://counter2.stat.ovh/private/counter.js?c=ppylz524n9hyl38jsb9y7n96b1h2mmeg&down=async" async></script><br>Contador de juego loteria<noscript><a href="https://www.contadorvisitasgratis.com" title="descargar contador de visitas"><img src="https://counter2.stat.ovh/private/contadorvisitasgratis.php?c=ppylz524n9hyl38jsb9y7n96b1h2mmeg" border="0" title="descargar contador de visitas" alt="descargar contador de visitas"></a></noscript>
+            </button>
+        </div>    
+        <div id="areaJuego" class="secciones">               
+            <p id="p_centro">
+                <br>
+                <img id="carta" class="carta" src="" alt="carta de una constelación"/>
+                <audio id="audio" src="">                    
+                </audio>
+            </p>           
+            <img id="imgParar" src="img/botones/AZULES/stop.png" class="boton"/>
+            <img id="imgPausa" src="img/botones/AZULES/pausa.png" class="boton"/>
+            <img id="imgIniciar" src="img/botones/AZULES/play.png" class="boton"/>
+            <img id="imgSiguienteCarta" src="img/botones/AZULES/siguiente.png" class="boton"/>
+            <img id="imgApagarSonido" src="img/botones/AZULES/volumenoff.png" class="boton"/>
+        </div>
+
+        <div id="areaVerificacion" class="secciones">            
+            <div style="z-index: -1">
+                <table id="tablaPlanilla">
+                    <tr>
+                        <td > <img id="imgCarta1" src="img/cartas/1.png"  alt=""/></td>
+                        <td > <img id="imgCarta2" src="img/cartas/1.png" alt="" /></td>
+                        <td > <img id="imgCarta3" src="img/cartas/1.png"/></td>
+                        <td > <img id="imgCarta4" src="img/cartas/1.png"/></td>
+                    </tr>
+                    <tr>
+                        <td> <img id="imgCarta5" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta6" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta7" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta8" src="img/cartas/1.png"/></td>
+                    </tr>
+                    <tr>
+                        <td> <img id="imgCarta9" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta10" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta11" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta12" src="img/cartas/1.png"/></td>
+                    </tr>
+                    <tr>
+                        <td> <img id="imgCarta13" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta14" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta15" src="img/cartas/1.png"/></td>
+                        <td> <img id="imgCarta16" src="img/cartas/1.png"/></td>
+                    </tr>
+                </table>
+                <table id="tablaCartones">
+                    <tr>
+                        <td onclick="comprobarGanador(1)">1</td>
+                        <td onclick="comprobarGanador(2)">2</td>
+                        <td onclick="comprobarGanador(3)">3</td>
+                        <td onclick="comprobarGanador(4)">4</td>
+                        <td onclick="comprobarGanador(5)">5</td>
+                    </tr>
+                    <tr>
+                        <td onclick="comprobarGanador(6)">6</td>
+                        <td onclick="comprobarGanador(7)">7</td>
+                        <td onclick="comprobarGanador(8)">8</td>
+                        <td onclick="comprobarGanador(9)">9</td>
+                        <td onclick="comprobarGanador(10)">10</td>
+                    </tr>                
+                </table>
+            </div>
+        </div> 
+        
+        <div  id="contenedorPie" class="secciones">
+            <h1>Juego Terminado</h1>
+        </div>                 
+    </body>
+</html>

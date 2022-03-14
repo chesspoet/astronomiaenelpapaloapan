@@ -1,0 +1,775 @@
+:root {
+    --animate-delay: 2s;
+  }
+p{
+    line-height: 25px;
+  }
+body{
+    background-image: url('../img/background/constelacion.svg');
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+#principal,#secciones{
+    overflow: hidden;
+    width: 70%;
+    height: 90%;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#categorias{
+    overflow: hidden;
+    width: 70%;
+    height: 200px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+}
+#principal::after, #secciones::after{
+    content: ""; 
+    background-color: white;
+    opacity: 0.8; 
+    top: 2%; 
+    left: 0; 
+    bottom: 2%; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    z-index: -1; 
+}
+
+#barraBlanca{
+    overflow: hidden;
+    width: 100%;
+    
+    display: block;
+}
+#barraBlanca::after{
+    content: ""; 
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    opacity: 0.8; 
+    margin-top: 3%;
+    top: 5%; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    z-index: -1; 
+}
+#barraBlanca2{
+    overflow: hidden;
+    width: 100%;
+    height: 120%;
+    display: block;
+}
+#barraBlanca2::after{
+    content: ""; 
+    opacity: 0.8; 
+    top: 2%; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    z-index: -1; 
+}
+
+#principal:hover{
+    --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+#astronomia_papaloapan{
+    overflow: hidden;
+    width: 40%;
+    height: 150px;
+    float: left;
+    background-image: url('../img/logos_emcabezado/astronomiasnoopy-01.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: 0.5s ease;
+ 		-moz-transition: 0.5s ease; /* Firefox */
+ 		-webkit-transition: 0.5s ease; /* Chrome - Safari */
+ 		-o-transition: 0.5s ease; /* Opera */
+}
+#astronomia_papaloapan:hover{
+    transform : scale(1.5);
+    -moz-transform : scale(1.5); /* Firefox */
+    -webkit-transform : scale(1.5); /* Chrome - Safari */
+    -o-transform : scale(1.5); /* Opera */
+    -ms-transform : scale(1.5); /* IE9 */
+}
+#logo_astro{
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/logos_emcabezado/logo_astronomia.svg');
+    float: right;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 2%;
+    margin-top: 10px;
+}
+#logo_conacyt{
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/logos_emcabezado/logo_conacyt.svg');
+    float: right;
+    margin-top: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#logo_unpa{
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/logos_emcabezado/logo_unpa.svg');
+    float: right;
+    margin-top: 8%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    position: absolute;
+    right:    3%;
+    bottom:   1%;
+    margin-bottom: 10px;
+}
+#secciones{
+    text-align: center;
+}
+#box_ebook,#box_experimentos,#box_matemagia,#box_sistemasolar,#box_tierraluna,#box_universo{
+    overflow: hidden;
+    display: block;
+    width: 43%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 3.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#box_loteria{
+    width: 43%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 3.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#box_registro{
+    width: 43%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 3.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#box_encuesta{
+    width: 43%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 3.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#box_sesion{
+    overflow: hidden;
+    display: block;
+    width: 43%;
+    height: 250px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 3.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#box_sesion::after{
+    content: ""; 
+    background-image: url('../img/IDENTIFICACION.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    float: left;
+    opacity: 1;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+    z-index: -1;
+}
+#box_registro::after{
+    content: ""; 
+    background-image: url('../img/IDENTIFICACION.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+    z-index: -1;
+    
+}
+#box_encuesta::after{
+    content: ""; 
+    background-image: url('../img/ENCUESTA.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+    z-index: -1;
+    
+}
+
+#box_ebook::after,#box_experimentos::after,#box_loteria::after,#box_matemagia::after,#box_sistemasolar::after,#box_tierraluna::after,#box_universo::after{
+    content: ""; 
+    background-color: white;
+    opacity: 0.9; 
+    float: left;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    border-radius: 30px;
+    right: 0; 
+    position: absolute; 
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+    z-index: -1;
+}
+
+
+#logo_ebook{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_EBOOK/EBOOK.svg');
+    background-repeat: no-repeat;
+    
+}
+#logo_experimentos{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_EXPERIMENTOS/EXPERIMENTOS.svg');
+    background-repeat: no-repeat;
+}
+#logo_loteria{
+    width: 60%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_LOTERIA/ICONO_LOTERIA_DE_LAS\ CONSTELACIONES.svg');
+    background-repeat: no-repeat;
+}
+#logo_obser{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/Observaciones/obser.svg');
+    background-repeat: no-repeat;
+}
+#logo_planete{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/Icono.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo_acerca{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/nosotros.svg');
+    background-repeat: no-repeat;
+}
+#logo_login{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/IDENTIFICACION.svg');
+    background-repeat: no-repeat;
+}
+#logo_matemagia{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_MATEMAGIA/MATEMAGIA.svg');
+    background-repeat: no-repeat;
+}
+.div{
+    color: black;
+}
+#logo_sistemasolar{
+    width: 40%;
+    height: 60%;
+    margin-left: 3%;
+    float: left;
+    background-image: url('../img/logos_categorias/ICONO_SISTEMASOLAR/SISTEMA\ SOLAR.svg');
+    background-repeat: no-repeat;
+}
+#mosaico_tierra{
+    width: 45%;
+    height: 80%;
+}
+#logo_tierraluna{
+    width: 160px;
+    height: 160px;
+    display: table;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    vertical-align: middle;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_TIERRALUNA/TIERRA\ LUNA.svg');
+    background-repeat: no-repeat;
+}
+#titulo_tierra,#titulo_sistemasolar,#titulo_ebook,#titulo_universo,#titulo_experimento,#titulo_matemagia{
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 80%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight:bold;
+    font-size:2em;    
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#titulo_loteria{
+    background-repeat: no-repeat;
+    width: 58%;
+    height: 80%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight:bold;
+    font-size:2em;    
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#titulo_registro{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight:bold;
+    font-size:2em;    
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#logo_universo{
+    width: 40%;
+    height: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-image: url('../img/logos_categorias/ICONO_UNIVERSO/UNIVERSO.svg');
+    background-repeat: no-repeat;
+}
+
+#contador{
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 18%;
+}
+#box_ebook:hover,#box_experimentos:hover,#box_loteria:hover,#box_matemagia:hover,#box_sistemasolar:hover,#box_tierraluna:hover,#box_universo:hover {
+    background-color: white;
+    opacity: 0.8;
+border-radius: 30px;
+--animate-duration: 0.5s;
+transform : scale(1.1);
+		-moz-transform : scale(1.1); /* Firefox */
+		-webkit-transform : scale(1.1); /* Chrome - Safari */
+		-o-transform : scale(1.1); /* Opera */
+		-ms-transform : scale(1.1); /* IE9 */
+}
+#box_registro{
+    background-color: white;
+    opacity: 0.8;
+border-radius: 30px;
+--animate-duration: 0.5s;
+
+}
+#box_registro:hover{
+    opacity: 0.5;
+    transform : scale(1.1);
+		-moz-transform : scale(1.1); /* Firefox */
+		-webkit-transform : scale(1.1); /* Chrome - Safari */
+		-o-transform : scale(1.1); /* Opera */
+		-ms-transform : scale(1.1); /* IE9 */
+}
+#box_encuesta{
+    background-color: white;
+    opacity: 0.8;
+border-radius: 30px;
+--animate-duration: 0.5s;
+
+}
+#box_encuesta:hover{
+    opacity: 0.5;
+    transform : scale(1.1);
+		-moz-transform : scale(1.1); /* Firefox */
+		-webkit-transform : scale(1.1); /* Chrome - Safari */
+		-o-transform : scale(1.1); /* Opera */
+		-ms-transform : scale(1.1); /* IE9 */
+}
+#categorias{
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#box_iconotierra,#box_iconosistemasolar,#box_iconouniverso,#box_iconosimulaciones,#box_iconosobserver,#box_iconoexperimento,#box_iconolibroastronomico,#box_iconoloteria,#box_iconoobsevacion{
+    overflow: hidden;
+    width: 10%;
+    height: 40%;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    transition: 0.5s ease;
+ 		-moz-transition: 0.5s ease; /* Firefox */
+ 		-webkit-transition: 0.5s ease; /* Chrome - Safari */
+ 		-o-transition: 0.5s ease; /* Opera */
+    margin: 0px auto;
+}
+#box_iconotierra::after,#box_iconosistemasolar::after,#box_iconouniverso::after,#box_iconosobserver::after,#box_iconosimulaciones::after,#box_iconoexperimento::after,#box_iconolibroastronomico::after,#box_iconoloteria::after,#box_iconoobsevacion::after{
+    content: ""; 
+    top: 10%; 
+    left: 5%;
+    bottom: 5%; 
+    border-radius: 30px;
+    right: 5%; 
+    position: absolute; 
+    z-index: -1; 
+}
+#box_iconotierra,#box_iconoloteria,#box_iconoexperimento, #box_iconosimulaciones,#box_iconosobserver, #box_iconouniverso,#box_iconosistemasolar,#box_iconolibroastronomico,#box_iconoobsevacion{
+    margin-left: 2%;
+    margin-top: 4%;
+    float: left;
+}
+#icono_tierra{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_TIERRALUNA/TIERRA\ LUNA.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#icono_sistemasolar{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_SISTEMASOLAR/SISTEMA\ SOLAR.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#icono_universo{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_UNIVERSO/UNIVERSO.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#icono_simulaciones{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_MATEMAGIA/MATEMAGIA.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#icono_observer{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/Observaciones/obser.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#icono_observa{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/Observaciones/obser.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+
+    float: left;
+}
+#icono_experimentos{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_EXPERIMENTOS/EXPERIMENTOS.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#icono_libroastronomico{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_EBOOK/EBOOK.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#icono_loteria{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_LOTERIA/ICONO_LOTERIA_DE_LAS\ CONSTELACIONES.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#icono_observacion{
+    overflow: hidden;
+    background-image: url('../img/logos_categorias/ICONO_EBOOK/EBOOK.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+#box_iconoloteria:hover,#box_iconoexperimento:hover,#box_iconosobserver:hover, #box_iconosimulaciones:hover, #box_iconouniverso:hover,#box_iconosistemasolar:hover,#box_iconolibroastronomico:hover,#icono_observa:hover {
+--animate-duration: 0.5s;
+transform : scale(1.5);
+		-moz-transform : scale(1.5); /* Firefox */
+		-webkit-transform : scale(1.5); /* Chrome - Safari */
+		-o-transform : scale(1.5); /* Opera */
+		-ms-transform : scale(1.5); /* IE9 */
+}
+#box_iconotierra:hover,#icono_observacion:hover{
+    opacity: 0.8;
+    --animate-duration: 0.5s;
+    transform : scale(1.5);
+		-moz-transform : scale(1.5); /* Firefox */
+		-webkit-transform : scale(1.5); /* Chrome - Safari */
+		-o-transform : scale(1.5); /* Opera */
+		-ms-transform : scale(1.5); /* IE9 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fenomenosatmosferico{
+    width: 20%;
+    height: 300px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#capastierra{
+    position:relative;
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    background-image: url('../img/Secciones/LaTierra/CAPAS_DE_LA_TIERRA.svg');
+    background-repeat: no-repeat;
+    background-size: 130% 100%;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#planetatierra{
+    position:relative;
+    width: 20%;
+    height: 300px;
+    background-image: url('../img/Secciones/LaTierra/tierrabien.jpg');
+    background-size: cover;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+
+
+#laluna{
+    position: relative;
+    width: 25%;
+    height: 250px;
+    background-image: url('../img/Secciones/LaTierra/lunabien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    border-radius: 30px;
+    float: left;
+}
+
+
+
+#capastierra:hover{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+
+#planetatierra:hover{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+
+
+#laluna:hover{
+
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+#temaLuna{
+    width: 100%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    height: 20%;
+    border-radius: 30px;
+}
+#identificacion{
+    width: 400px;
+    height: 200px;
+    background-image: url('../img/IDENTIFICACIÓN.svg');
+    background-repeat: no;
+}
+#divPrincipal{
+    width: 100%;
+    margin:0 auto;
+    margin-top:3%;
+}

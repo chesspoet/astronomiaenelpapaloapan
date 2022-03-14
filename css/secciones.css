@@ -1,0 +1,421 @@
+
+#sub1Campo,#sub2Campo{
+    width: 48%;
+    height: 92%;
+    float: left;
+    background-color:  rgb(205, 210, 214);
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+#imagenCampoElectromagnetico{
+    background-image: url('../img/Secciones/LaTierra/CAMPO_DE_LA_TERRE.svg');
+    background-size: 100% 100%;
+    background-color: rgb(35, 30, 75);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+
+#txtCampoElectromagnetico,#txtFenomenos,#txtSabias,#txtNubes,#temaEclipses,#txtLuna{
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    height: 20%;
+    border-radius: 30px;
+}
+#txtFenomenos{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    bottom: 8%;
+    border-radius: 30px;
+}
+#tema5{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    color: white;
+    bottom: 8%;
+    margin:0px;
+}
+#txtCapaTierra{
+    position:absolute;
+    width: 100%;
+    height: 5%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    bottom: 8%;
+    
+    border-radius: 30px;
+}
+
+#txtNubes,#txtHuracanes,#txtLuna{
+    margin-top: 90%;
+    height: 5%;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#temaLuna{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    color: white;
+    bottom: 8%;
+}
+#temaEclipses{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    bottom: 8%;
+    border-radius: 30px;
+}
+
+#txtPlanetaTierra{
+    position:absolute;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    bottom: 8%;
+    border-radius: 30px;
+}
+#tema4{
+    position:absolute;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    bottom: 8%;
+    border-radius: 30px;
+
+}
+#txtCampoElectromagnetico{
+    width: 100%;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    float: left;
+    color: white;
+}
+
+
+#luna{
+    background-color: rgb(205, 210, 214);
+    width: 98%;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+#imgLuna{
+    background-size: 100% 100%;
+    background-image: url('../img/Secciones/LaTierra/CARA_OCULTA.jpg');
+    width: 98%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+
+#fenomenosAtmosfericos{
+    position: relative;
+    width: 30%;
+    height: 300px;
+    background-image: url('../img/Secciones/LaTierra/atmosferabien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#fenomenosAtmosfericos:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+
+}
+#campoelectro{
+    position:relative;
+    width: 56%;
+    height: 300px;
+    background-image: url('../img/Secciones/LaTierra/CAMPO_ELECTROMAGNÉTICO_DE_LA_TERRE\ [Convertido].svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+  
+}
+#campoelectro:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+#estaciones{
+    position: relative;
+    width: 72%;
+    height: 250px;
+    background-image: url('../img/Secciones/LaTierra/estacionesbien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#estaciones:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+
+}
+#eclipses{
+    position: relative;
+    width: 67%;
+    height: 300px;
+    background-image: url('../img/Secciones/LaTierra/project_20220103_1317143-01\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: right;
+}
+#eclipses:hover,#planetas:hover,#planetasEnanos:hover,#asteroidescometasymeteoritos:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+    --animate-duration: 0.5s;
+}
+
+#planetas{
+    position: relative;
+    width: 80%;
+    height: 550px;
+    background-image: url('../img/Secciones/SistemaSolar/planetas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 7%;
+    margin-right: 1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#txtPlanetas,#txtasteroidescometasymeteoritos{
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    margin-top: 1%;
+    height: 5%;
+    border-radius: 30px;
+}
+#txtPlanetasEnanos{
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    bottom: 50%;
+    height: 5%;
+    border-radius: 30px;
+}
+#planetasEnanos{
+    width: 58%;
+    position: relative;
+    height: 660px;
+    background-image: url('../img/Secciones/SistemaSolar/Planetas\ Enanos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    float: left;
+}
+#asteroidescometasymeteoritos{
+    position: relative;
+    width: 38%;
+    height: 300px;
+    background-color: white;
+    background-image: url('../img/Secciones/SistemaSolar/meteoritos.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 13%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+
+
+
+#lanzamientocohote{
+    position:relative;
+    width: 30%;
+    height: 300px;
+    background-color: antiquewhite;
+    background-image: url('../img/Secciones/Experimentos/To\ the\ stars-rafiki.png');
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#espectroluz{
+    position:relative;
+    width: 60%;
+    height: 300px;
+    background-image: url('../img/Secciones/Experimentos/espectro.jpg');
+    background-size: cover;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+
+#densidad{
+    position:relative;
+    width: 40%;
+    height: 300px;
+    background-color: antiquewhite;
+    background-image: url('../img/Secciones/Experimentos/Science-pana.svg');
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    float: left;
+}
+#densidad:hover,#espectroluz:hover,#lanzamientocohote:hover,#libroastronomico:hover,#libroastronomicoMazateco:hover,#libroastronomicoMixe:hover,#libroastronomicoZapo:hover{
+    opacity: 0.8;
+}
+#libroastronomico{
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/Secciones/LibroAstronomico/ESPAÑOL.png');
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    float: left;
+}
+#libroastronomicoChina{
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/Secciones/LibroAstronomico/CHINANTECO.png');
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    float: left;
+}
+#libroastronomicoMazateco{
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/Secciones/LibroAstronomico/MAZATECO.png');
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    float: left;
+}
+#libroastronomicoMixe{
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/Secciones/LibroAstronomico/MIXE.png');
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    float: left;
+}
+#libroastronomicoZapo{
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/Secciones/LibroAstronomico/ZAPOTECO.png');
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    float: left;
+}
+#txtlibroastronomico{
+width: 250px;
+height: 5%;
+color: black;
+text-align: center;
+margin-left: 1%;
+font-size: large;
+font-weight: bold;
+font-family:'Helvetica','Verdana','Monaco',sans-serif;
+bottom: 15%;
+border-radius: 30px;
+float: left;
+}
+#padreLibro{
+    width: 250px;
+    height: 320px;
+    float: left ;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+#logoDescarga{
+    width: 250px;
+    height: 350px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    float: left;
+}
+#logoPlay{
+    width: 250px;
+    height: 350px;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    float: right;
+}
+#textoapp{
+    width: 100%;
+    height: 400px;
+}
